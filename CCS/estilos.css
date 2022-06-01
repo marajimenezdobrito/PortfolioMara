@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+  /*body va a ser la alata regular 400, o sea, miFuente*/  
+  body {
+    background-color: #171717;
+    font-family: 'StingerFitTrialThinItalic', sans-serif;
+    font: weight 400px;
+    color: #F8417A;
+       
+}
+
+#pA {
+    font-family: 'miFuente', sans-serif;
+    font-size: 1em;
+    color:#F8417A
+}
+
+#pB {
+    font-family: 'miFuente', sans-serif;
+    font-size: 1 em;
+    color: #F8417A
+}
+
+
+@font-face {
+    font-family: StingerFitTrialHeavy ; /*mi idea es trabajar el titulo como imagen y escalarlo. me genera problema q este con tanta separacion, adjunto imagen de como se deberia ver*/
+    src: url(../fuentes/StingerFitTrial-Heavy.ttf);
+font-weight: 100;
+}
+
+@font-face {
+    font-family: StingerFitTrialThinItalic ; /*esta tipografia es unicamente para los links*/
+    src: url(../fuentes/StingerFitTrial-ThinItalic.ttf);
+    font-weight: 100;
+
+}
+
+/* rosa #F8417A */
+/* blanco #CFCFCF */
+/* negro #171717 */
+
+
+h2{
+    font-family: StingerFitTrialHeavy;
+    font-size: 2.125em;
+    font-weight: 100;
+    color: #CFCFCF;
+}
+h1{
+    font-family: StingerFitTrialHeavy;
+    font-size: 5.125em;
+    font-weight: 100;
+    color: #CFCFCF;
+}
+
+h3{
+    font-family: StingerFitTrialHeavy;
+    font-size: 3.625em;
+    font-weight: 100;
+    color: #CFCFCF;
+}
+
+h5{
+    font-family: StingerFitTrialHeavy;
+    font-size: 1.620em;
+    font-weight: 100;
+    color: #CFCFCF;
+}
+
+
+
+#vinculo1:hover{
+    font-family: StingerFitTrialThinItalic;
+    font-size: 0 em;
+    font-weight: 100;
+    color:#F8417A;
+    
+}
+
+#vinculo2:hover{
+    font-family: StingerFitTrialThinItalic;
+    font-size: 0 em;
+    font-weight: 100;
+    color:#F8417A;
+   
+}
+
+#vinculo3:hover{
+    font-family: StingerFitTrialThinItalic;
+    font-size: 0 em;
+    font-weight: 100;
+    color:#F8417A;
+}
+
+#vinculo4:hover{
+    font-family: StingerFitTrialThinItalic;
+    font-size: 0 em;
+    font-weight: 100;
+    color:#F8417A;
+    
+   
+}
+
+
+#mail {
+    font-family: 'miFuente', sans-serif;
+    font-weight: 100;
+    font-size: 0 em;
+    color: F8417A;
+    
+
+
+}
+
+
+/*esto permitir que se adapte la tipografía a la pantalla-igual no entendi muy bien como/ s esta bien hecha la escala q yo quiero - tampoco se bien como probarlo en mi celular*/
+@media (max-width: 720px) {
+    body {
+        font-size: 100%;
+    }
+
+}
